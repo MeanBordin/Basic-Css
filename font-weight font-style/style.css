@@ -1,0 +1,47 @@
+body{
+    margin: 5%;
+    padding: 5%;
+}
+
+.paraghap1{
+    border: solid;
+    padding: 5%;
+}
+
+/* 
+.paraghap2{
+    border: solid;
+    margin: 5%;
+} */
+
+.header1{
+    color: red;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+.message1{
+    font-weight: bolder;
+}
+
+.message2{
+    /* font-size: medium; */
+    font-weight: 900;
+}
+
+
+.header2{
+    color: blue;
+}
+
+.message3, .message4{
+    font-style: italic;
+    font-weight: bolder;
+}
+
+
+

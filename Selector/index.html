@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic CSS</title>
+
+    <!-- internal -->
+    <style>
+        
+        /*element selecter*/
+        h1{
+            color: red;
+            font-size: 50px;
+        }
+
+        /*Class selecter*/
+        .title{
+            color: blue;
+            font-size: 20 px;
+            text-align: center;
+        }
+        
+        /* id selecter*/
+        #title{
+            color: aqua;
+            font-size: 40px;
+            text-align: right;
+        }
+
+        /*union selocter*/
+        #title,.title{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+            'Lucida Grande', 'Lucida Sans Unicode', 
+            Geneva, Verdana, sans-serif;
+            font-style: italic;
+        }
+
+        /*กรณีมี tage ซ้ำกันเยอะให้ อาง  ถึง tag ก่อนแล้วตามด้วย Class*/
+        p.message{
+            font-size: 20px;
+            font-weight: 700;
+            color: blueviolet;
+        }
+        
+        h1.message{
+            font-size: 100px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Bordinsak Prasopboon</h1>
+    <h1 class="title">Bordinsak Prasopboon</h1>
+    <h1 id='title'>Bordinsak Prasopboon</h1>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        At alias ipsum aperiam provident quia qui quisquam temporibus aliquid illo quo. 
+        Voluptatibus ipsam nulla quisquam perferendis dolor obcaecati minima doloribus. Ea?
+    </p>
+    <p class="message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Aperiam voluptatibus delectus voluptatum neque inventore esse accusamus 
+        placeat ipsam sint praesentium, amet, nemo nam, commodi suscipit quod. 
+        Laborum velit ex illo?
+    </p>
+    <h1 class="message">message</h1>
+</body>
+</html>

@@ -1,0 +1,17 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    
+    background-color: aqua;
+}
+
+p.message1{
+    font-size: larger;
+    color: rebeccapurple;
+}
+
+h1.title{
+    font-size: 100px;
+    text-align: center;
+    color: red;
+}
