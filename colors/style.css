@@ -1,0 +1,18 @@
+.message1{
+    color: gold;
+    font-weight: bolder;
+}
+
+.message2{
+    color: rgb(0, 213, 255);
+    font-weight: bolder;
+}
+
+.message3{
+    font-weight: bolder;
+    font-size: 2rem;
+    color: rgb(254, 2, 3, 0.1);
+}
+
+
+
